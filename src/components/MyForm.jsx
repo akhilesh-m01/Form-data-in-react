@@ -1,3 +1,5 @@
+import './MyForm.css';
+
 const MyForm = (props) => {
 
   console.log(props);

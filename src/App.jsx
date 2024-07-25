@@ -69,8 +69,8 @@ export default function App() {
 
   
   return (
-    <div>
-        <form onSubmit={handleSubmit}>
+    <div className='form'>
+        <form className='myform' onSubmit={handleSubmit}>
           {
             inputs.map((input)=>(
               <MyForm
